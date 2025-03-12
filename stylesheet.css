@@ -147,7 +147,39 @@ figcaption a {
     padding: 7rem 3.5rem 5rem 3.5rem;
 }
 
+.form-area{
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+    box-shadow: 2px 2px 5px 1px rgba(31, 31, 31, 0.2);
+    color: rgb(38, 37, 37);
+}
+
+.form-row {
+    display: flex;
+    padding-top: 1rem;
+}
+
 .form-field {
     display: flex;
     flex-direction: column;
+    flex: none;
+}
+
+.last-name, .phone, .confirm-password {
+    padding-left: 4.5rem;
+}
+
+input {
+    width: 260px;
+}
+
+label {
+    text-transform: uppercase;
+    color: rgb(54, 54, 54);
+    font-size: 0.6rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;;
+}
+
+footer {
+    padding: 2rem 3.5rem 1.5rem 3.5rem;
 }
