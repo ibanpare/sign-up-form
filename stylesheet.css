@@ -79,6 +79,7 @@ h6 {
 body {
   display: flex;
   font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 
 .left-side {
@@ -112,13 +113,13 @@ div.logo > p {
     width: 5vw;
 }
 
-figure > img {
+.left-side > img {
     object-fit: cover;
     position: relative;
     height: 100vh;
 }
 
-figcaption {
+.caption {
     text-align: center;
     position: relative;
     bottom: 25px;
@@ -127,7 +128,7 @@ figcaption {
     font-size: 0.9rem;
 }
 
-figcaption a {
+.caption a {
     color: white;
 }
 
@@ -144,7 +145,7 @@ figcaption a {
 
 .disclaimer {
     background-color: rgb(247, 247, 247);
-    padding: 7rem 3.5rem 5rem 3.5rem;
+    padding: 6rem 3.5rem 5rem 2.5rem;
 }
 
 .form-area{
