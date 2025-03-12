@@ -171,7 +171,19 @@ div.logo > p {
 
 input {
     width: 260px;
+    border: 1px solid #E5E7EB;
+    padding-left: 0.6rem;
 }
+
+input:invalid {
+    border: 1px solid #ff5656;
+}
+
+input:focus {
+    border: 1px solid #05389f;
+    box-shadow: 2px 2px 3px 1px rgba(31, 31, 31, 0.2);
+}
+
 
 label {
     text-transform: uppercase;
