@@ -78,6 +78,7 @@ h6 {
 
 body {
   display: flex;
+  font-family: "Roboto", sans-serif;
 }
 
 .left-side {
@@ -135,11 +136,10 @@ figcaption a {
 }
 
 .before-form {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 600;
     max-width: 50ch;
     color: rgb(38, 37, 37);
-    font-family: "Roboto", sans-serif;
 }
 
 .disclaimer {
@@ -177,9 +177,28 @@ label {
     color: rgb(54, 54, 54);
     font-size: 0.6rem;
     font-weight: 600;
-    font-family: "Roboto", sans-serif;;
 }
 
 footer {
     padding: 2rem 3.5rem 1.5rem 3.5rem;
+}
+
+button {
+    background-color: rgb(89, 103, 72);
+    color: white;
+    padding: 0.3rem 3rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 3px 1px rgba(31, 31, 31, 0.2);
+    font-weight: 900;
+    font-size: 0.8rem;
+    border: none;
+}
+
+a {
+    color: rgb(89, 103, 72);
+}
+
+footer > p {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
 }
