@@ -33,6 +33,7 @@ button,
 textarea,
 select {
   font: inherit;
+  font-size: 100%;
 }
 
 /* 7. Avoid text overflows */
